@@ -1,5 +1,6 @@
 function findDisappearedNumbers(nums) {
     var result = [];
+    // @ts-ignore
     var set = new Set(nums);
     var max = nums.length;
     //iterates n times

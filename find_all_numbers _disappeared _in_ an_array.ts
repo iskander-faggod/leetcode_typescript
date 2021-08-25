@@ -1,5 +1,7 @@
+
 function findDisappearedNumbers(nums: number[]): number[] {
     let result: number[] = [];
+    // @ts-ignore
     const set = new Set(nums);
     const max = nums.length;
     //iterates n times

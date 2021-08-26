@@ -10,6 +10,3 @@ function maxProfit(prices) {
 }
 ;
 //# sourceMappingURL=max_profit.js.map
-
-const prices = [7,1,5,3,6,4]
-console.log(maxProfit(prices))
